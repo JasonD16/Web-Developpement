@@ -1,0 +1,204 @@
+* {
+  color: black;
+  font-size: 1em;
+  font-family: Tahoma;
+  font-weight: 1;
+  text-decoration: none;
+}
+
+/*NAVIGATION BAR*/
+#body_main {
+  /* background-color: #414a4c; */
+  background-color: rgb(214, 224, 233);
+}
+.logo {
+  width: 70px;
+  height: 70px;
+  padding: 0;
+  margin: 0;
+}
+
+.Menu {
+  background-color: rgb(214, 224, 233);
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  list-style: none;
+  border-bottom: 2px solid white;
+}
+
+.nav_li {
+  float: left;
+}
+
+.nav_li_a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 25px;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  width: 150px;
+}
+
+.Menu_Right:hover {
+  color: white;
+  background-color: #4a646c;
+}
+
+.Menu_Right {
+  float: right;
+  padding-top: 0;
+  padding-bottom: 0;
+  background: transparent;
+}
+
+/*START MAIN*/
+.Start_Main {
+  text-align: center;
+  margin-top: 70px;
+}
+
+.Start_Municipality {
+  margin-top: 70px;
+}
+
+.baladiye_Box {
+  left: 0;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  overflow: hidden;
+  border: 5px solid white;
+}
+
+.baladiye_Box:hover {
+  /*	box-shadow: 20px 20px 3px #EDE8D0;*/
+  border: 5px solid #8b0000;
+}
+
+/*CONTACT US PAGE*/
+
+.Contact_Us_start {
+  display: block;
+  margin-top: 70px;
+  font-family: tahoma, sans-serif;
+}
+
+.Start_ContactUs {
+  margin-top: 70px;
+}
+
+.Contact_window {
+  width: 600px;
+  height: 670px;
+  margin: 100px auto;
+  background-color: white;
+  border: 2px solid white;
+}
+#Contact_Us_title {
+  height: 80px;
+  text-align: center;
+  background-color: #414a4c;
+}
+
+#title {
+  height: 80px;
+  margin: 0px;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 2em;
+  font-weight: 200;
+  color: white;
+}
+
+.Contact_body {
+  /* background-color: #414a4c; */
+  background-color: rgb(214, 224, 233);
+}
+.input_window {
+  margin: 10px 30px;
+  width: 90%;
+}
+
+.input_titles {
+  font-weight: 100;
+  font-size: 1.2em;
+  margin: 0px 30px;
+  /* margin-top: 200px; */
+}
+
+/*MUNICIPALITY LAYOUT*/
+#mun_layout_body {
+  /* background-color: #414a4c; */
+  background-color: rgb(214, 224, 233);
+  text-align: center;
+}
+
+#mun_start {
+  margin-top: 70px;
+}
+
+.mun_candidates_details {
+  height: 27em;
+  width: 27em;
+  border: 0.5em solid white;
+  display: inline-block;
+  margin: 3em 3em;
+  overflow: scroll;
+  padding: 10px;
+  padding-top: 0px;
+  text-align: left;
+  background-color: rgb(224, 233, 214);
+}
+.mun_candidate_title {
+  color: #414a4c;
+  padding-bottom: 10px;
+  border-bottom: 0.15em solid white;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 1.5em;
+}
+
+.details_titles {
+  font-weight: bold;
+  font-size: 1.2em;
+  color: #414a4c;
+  margin-bottom: 30px;
+}
+
+.details {
+  float: right;
+  padding-right: 2em;
+}
+
+.mun_li {
+  margin-bottom: 30px;
+}
+
+.extra {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.candidate {
+  height: 120px;
+  line-height: 120px; /* Matches image height */
+  margin-bottom: 10px;
+}
+
+.candidate img {
+  vertical-align: middle; /* Ensures the image aligns with the text */
+  width: 120px;
+  height: 120px;
+}
+
+.msg {
+  display: block;
+  font-weight: bold;
+  color: rgb(61, 173, 61);
+}
