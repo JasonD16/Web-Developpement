@@ -5,7 +5,7 @@
 
 #admin:
     username: victor@sawma
-    password: victorsawma
+    password: password
 
 #url form:
     csc385_fp_JasonDaou_202331323/user/home ---> home.php at user side
