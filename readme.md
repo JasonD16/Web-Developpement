@@ -1,4 +1,5 @@
 Developed a website as a project for a university web development course, designed to provide users with election results for their respective municipalities. 
+
 #Legend:
     'mun' = municipality(ies)
     'cand' = candidate(s)
